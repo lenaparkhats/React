@@ -1,8 +1,16 @@
+"use strict";
+
+
+
 const numberOfFilms = +prompt("Сколько фильмов вы посмотрели?", "");
 const personalMovieDB ={count: numberOfFilms, movies: {}, actors: {}, genres: [], privat: false};
-let a = prompt("Один из последних фильмов?", ""), b = prompt("Насколько оцените его?", ""),
+let a = prompt("Один из последних фильмов?", ""),
+b = prompt("Насколько оцените его?", ""),
 c = prompt("Один из последних фильмов?", ""),
 d = prompt("Насколько оцените его?", "");
+let h = 2;
+
+
     
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
